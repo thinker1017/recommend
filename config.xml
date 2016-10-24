@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<!-- -->
+
+<rankingConfig>
+	<ilogHost>192.168.36.100</ilogHost>
+	<ilogUser>root</ilogUser>
+	<ilogPasswd>123456</ilogPasswd>
+	
+	<dtvsHost>192.168.36.100</dtvsHost>
+	<dtvsUser>root</dtvsUser>
+	<dtvsPasswd>123456</dtvsPasswd>
+	
+	<icoreHost>192.168.36.100</icoreHost>
+	<icoreUser>root</icoreUser>
+	<icorePasswd>123456</icorePasswd>
+	
+	<MaxNumPerNode>40</MaxNumPerNode>
+	
+	<redisHost>
+		<h0>192.168.36.100</h0>
+		<p0>13135</p0>
+		<h1>192.168.36.101</h1>
+		<p1>13135</p1>
+		<h2>192.168.36.102</h2>
+		<p2>13135</p2>
+		<h3>192.168.36.103</h3>
+		<p3>13135</p3>
+	</redisHost>
+	<dataId>
+		<h0>0</h0>
+	</dataId>
+	
+	
+	<ilogslaveRunLogPrefix>hdfs:///datamining/ilogslave/</ilogslaveRunLogPrefix>
+	<ilogslaveRddSavePrefix>hdfs:///test/zl/</ilogslaveRddSavePrefix>
+	<ilogslaveSavedIndex>1</ilogslaveSavedIndex>
+	<ilogslaveSavingIndex>1</ilogslaveSavingIndex>
+	<!-- 00-00-00 to default-->
+	<filebackupdate>2016-03-30</filebackupdate>
+	<filesavingdate>2016-03-30</filesavingdate>
+	
+	<timeWeight>0.2</timeWeight>
+	<PlayWeight>0.5</PlayWeight>
+</rankingConfig>
